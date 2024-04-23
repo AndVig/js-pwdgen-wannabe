@@ -13,7 +13,13 @@ console.log(lastName);
 let color = prompt('Inserisci il tuo colore preferito');
 console.log(color);
 
+// Massimo per Random
+let max = prompt('Inserisci il massimo del numero casuale');
+console.log(max);
 
+// Numero Random
+let rndNum = Math.floor(Math.random()*max)
+console.log(rndNum);
 
 // stapa del testo
-document.getElementById('password').innerHTML = `${fistName}${lastName}${color}21`
+document.getElementById('password').innerHTML = `${fistName}${lastName}${color}${rndNum}`
