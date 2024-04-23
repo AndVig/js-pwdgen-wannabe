@@ -13,5 +13,7 @@ console.log(lastName);
 let color = prompt('Inserisci il tuo colore preferito');
 console.log(color);
 
+
+
 // stapa del testo
 document.getElementById('password').innerHTML = `${fistName}${lastName}${color}21`
